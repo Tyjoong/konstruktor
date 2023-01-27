@@ -1,0 +1,36 @@
+package pbo1;
+
+public class PBO1 {
+
+    
+    public static void main(String[] args) {
+        Trapesium tra=new Trapesium();
+        tra.luasTrapesium();
+        tra.KelilingTrapesium();
+        
+        System.out.println("====================================================");
+        
+        Lingkarang ling=new Lingkarang();
+        ling.KelilingLingkaran();
+        ling.luasLingkaran();
+        
+        System.out.println("====================================================");
+        
+        Segitiga segi=new Segitiga();
+        segi.kelilingSegi();
+        segi.luasSegitiga();
+        
+        System.out.println("====================================================");
+        
+        Persegi per=new Persegi();
+        per.luas();
+        per.keliling();
+        
+        System.out.println("====================================================");
+        
+        BelahKetupat bk=new BelahKetupat();
+        bk.kelilingBelahKetupat();
+        bk.luasBelahKetupat();
+    }
+    
+}
