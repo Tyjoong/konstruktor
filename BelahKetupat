@@ -1,0 +1,22 @@
+package pbo1;
+
+public class BelahKetupat {
+    int jum, s, d1, d2;
+    
+    public BelahKetupat(){
+        this.jum=4;
+        this.s=10;
+        this.d1=20;
+        this.d2=25;
+    }
+    
+    public void luasBelahKetupat(){
+        double luas= 0.5*d1*d2;
+        System.out.println("Luas Belah Ketupat: "+luas);
+    }
+    
+    public void kelilingBelahKetupat(){
+        int keliling= jum*s;
+        System.out.println("Keliling Belah Ketupat: "+keliling);
+    }
+}
