@@ -1,0 +1,19 @@
+package pbo1;
+
+public class Persegi {
+    int panjang, lebar;
+    
+    public Persegi(){
+        this.panjang=10;
+        this.lebar=20;
+    }
+    public void luas(){
+        int luas=panjang*lebar;
+        System.out.println("Luas Persegi: "+luas);
+    }
+    public void keliling(){
+        int keliling=2*(panjang*lebar);
+        System.out.println("Keliling Persegi: "+keliling);
+    }
+    
+}
