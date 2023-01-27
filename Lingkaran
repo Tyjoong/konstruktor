@@ -1,0 +1,20 @@
+package pbo1;
+
+public class Lingkarang {
+    double phi, r;
+    
+    public Lingkarang(){
+        this.phi=3.14;
+        this.r=20;
+    }
+    
+    public void luasLingkaran(){
+        double luasLingkaran=phi*r*r;
+        System.out.println("Luas Lingkaran: "+luasLingkaran);
+    }
+    
+    public void KelilingLingkaran(){
+        double keliling=(2*r)*phi;
+        System.out.println("Keliling Lingkaran= "+keliling);
+    }
+}
