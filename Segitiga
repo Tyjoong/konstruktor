@@ -1,0 +1,22 @@
+package pbo1;
+
+public class Segitiga {
+        int alas, tinggi,sisiA,sisiB,sisiC;
+        
+        public Segitiga(){
+            this.alas= 14;
+            this.tinggi= 30;
+            this.sisiA= 10;
+            this.sisiB= 12;
+            this.sisiC= 15;
+        }
+        public void luasSegitiga(){
+        double luas=0.5*alas*tinggi;
+        System.out.println("Luas Segitiga: "+luas);
+    }
+    
+    public void kelilingSegi(){
+        int keliling= sisiA+sisiB+sisiC;
+        System.out.println("Keliling Segitiga: "+keliling);
+    }
+}
