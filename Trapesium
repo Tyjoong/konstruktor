@@ -1,0 +1,29 @@
+package pbo1;
+
+public class Trapesium {
+    
+    int a;
+    int b;
+    int c;
+    int d;
+    int t;
+    
+    public Trapesium(){
+        this.a=10;
+        this.b=15;
+        this.c=20;
+        this.d=25;
+        this.t=35;
+    }
+    
+    public void luasTrapesium(){
+        int luas= (a+b)*t/2;
+        System.out.println("Luas Trapesium: "+luas);
+    }
+    
+    public void KelilingTrapesium(){
+        int keliling= (a+b)+(b*c)+(c*d)+(d*a);
+        System.out.println("Keliling Trapesium: "+keliling);
+    }
+
+}
